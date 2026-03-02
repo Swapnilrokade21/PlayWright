@@ -1,0 +1,15 @@
+2026-02-16 16:03:14 INFO  TestProperties - Website Open
+2026-02-16 16:03:14 INFO  TestProperties - Properties File Loaded
+2026-02-16 16:03:15 INFO  TestProperties - Log in Site
+2026-02-16 16:03:19 INFO  TestProperties - Log Out from Site
+2026-02-16 16:03:19 INFO  TestProperties - Again Log in to Site
+2026-02-16 16:10:15 INFO  TestProperties - Website Open
+2026-02-16 16:10:15 INFO  TestProperties - Properties File Loaded
+2026-02-16 16:10:17 ERROR TestProperties - Log in Site
+2026-02-16 16:10:20 WARN  TestProperties - Log Out from Site
+2026-02-16 16:10:20 INFO  TestProperties - Again Log in to Site
+2026-02-16 16:12:48 INFO  TestLog4J - Website Open
+2026-02-16 16:12:48 INFO  TestLog4J - Properties File Loaded
+2026-02-16 16:12:50 ERROR TestLog4J - Log in Site
+2026-02-16 16:12:53 WARN  TestLog4J - Log Out from Site
+2026-02-16 16:12:54 INFO  TestLog4J - Again Log in to Site

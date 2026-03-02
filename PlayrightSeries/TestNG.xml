@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "src/test/resources/testng-1.0.dtd">
+<suite name="PlaywrightSuite">
+
+	<listeners>
+		<listener class-name="customListner.Listner" />
+			<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+	<test name="DemoTests">
+		<classes>
+			<class name="testNGTest.TestAnnotationFeuture" />
+		</classes>
+	</test>
+	<test name="DemoTests1">
+		<classes>
+			<class name="testNGTest.TestNGEx" />
+		</classes>
+	</test>
+	<test name="DemoTests2">
+		<classes>
+			<class name="testNGTest.TestNGEx2" />
+		</classes>
+	</test>
+	<test name="DemoTests3">
+		<classes>
+			<class name="testNGTest.TestNGFlow" />
+		</classes>
+	</test>
+</suite>

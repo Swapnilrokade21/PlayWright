@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "src/test/resources/testng-1.0.dtd">
+<suite name="PlaywrightSuite">
+	<test name="RegressionDemoTests">
+		<classes>
+			<class name="regression.AssertTest" />
+		</classes>
+	</test>
+	<test name="RegressionDemoTest2">
+		<classes>
+			<class name="regression.SoftAssertEx" />
+		</classes>
+	</test>
+</suite>

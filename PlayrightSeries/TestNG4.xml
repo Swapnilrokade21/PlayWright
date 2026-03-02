@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "src/test/resources/testng-1.0.dtd">
+<suite name="PlaywrightSuite">
+
+    <test name="PlaywrightTests">
+        <classes>
+            <class name="assignments.RandomChecbox"/>
+        </classes>
+    </test>
+</suite>
+

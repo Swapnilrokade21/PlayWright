@@ -1,0 +1,5 @@
+[2026-02-16 16:53:59] [INFO] secondPackage.TestLog4J2 - Website Open 1
+[2026-02-16 16:53:59] [DEBUG] secondPackage.TestLog4J2 - Properties File Loaded
+[2026-02-16 16:53:59] [ERROR] secondPackage.TestLog4J2 - Log in Site
+[2026-02-16 16:53:59] [WARN] secondPackage.TestLog4J2 - Log Out from Site
+[2026-02-16 16:53:59] [INFO] secondPackage.TestLog4J2 - Again Log in to Site

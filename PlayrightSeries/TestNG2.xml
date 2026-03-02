@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "src/test/resources/testng-1.0.dtd">
+<suite name="PlaywrightSuite" parallel="tests">
+
+	<test name="DemoTests">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="env" value="qa"></parameter>
+		<classes>
+			<class name="parameterisation.ParalllelWithDataProvider" />
+			
+		</classes>
+		
+	</test>
+	
+	<test name="DemoTests 1">
+	<parameter name="browser" value="Firefox"></parameter>
+	<parameter name="env" value="uat"></parameter>
+		<classes>
+			<class name="parameterisation.ParalllelWithDataProvider" />
+			
+		</classes>
+		
+	</test>
+	
+</suite>

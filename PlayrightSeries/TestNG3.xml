@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "src/test/resources/testng-1.0.dtd">
+<suite name="PlaywrightSuite" parallel="methods" thread-count="2">
+
+    <test name="PlaywrightTests">
+        <classes>
+            <class name="parameterisation.ParalllelWithDataProvider"/>
+        </classes>
+    </test>
+</suite>
+
