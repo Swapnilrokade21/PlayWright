@@ -17,7 +17,7 @@ public class RandomChecbox {
 	Playwright playwright;
 	Browser browser;
 	Page page;
-
+//test
 	@BeforeMethod
 	public void launchBrowser() {
 		playwright = Playwright.create();
